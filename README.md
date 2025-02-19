@@ -77,13 +77,3 @@ The **KNN algorithm** is used to find the nearest neighbors (most similar images
 - **KNN Model**: The **NearestNeighbors algorithm** is trained with the features of all images in the dataset. The KNN model is then used to find the 5 closest images to those liked by the user.
 
 - **Session State**: Streamlit's `st.session_state` is used to store the user's liked images, remaining images, and current state of the application across different pages.
-
-## Project Structure
-
-image-recommendation/
-│
-├── app.py                # Streamlit app code
-├── dataset/              # Folder containing the images for recommendation
-├── requirements.txt      # Python dependencies
-└── README.md             # Project description
-
